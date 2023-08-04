@@ -1,3 +1,14 @@
+.container {
+  background: linear-gradient(
+    to bottom,
+    var(--white-color) 0%,
+    var(--white-color) 50%,
+    var(--gray-color) 50%,
+    var(--gray-color) 100%
+  );
+  border: solid 1px red;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -5,7 +16,6 @@
   margin: 2rem 1rem;
   background-color: var(--dark-violet-color);
   border-radius: 0.5rem;
-
   border: solid 1px red;
 }
 
