@@ -1,12 +1,11 @@
 .container {
   width: 100%;
 
-  /* margin-top: 4rem;
-  margin-bottom: 4rem; */
-
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  gap: 2rem;
   background-color: var(--white-color);
 
   border: solid 1px red;
@@ -29,5 +28,15 @@
   border: solid 1px red;
 }
 
-.img {
+.heading {
+  margin-top: -1rem;
+
+  font-size: 1.2rem;
+  color: var(--very-dark-blue-color);
+}
+
+.text {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: var(--grayish-violet-color);
 }

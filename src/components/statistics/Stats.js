@@ -29,8 +29,14 @@ function Stats() {
   ];
   return (
     <div className={classes.container}>
-      <h2>Advanced Statistics</h2>
-      <StatsItemList items={statsItems} />
+      <div className={classes.contentContainer}>
+        <h2 className={classes.heading}>Advanced Statistics</h2>
+        <p className={classes.text}>
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+        <StatsItemList items={statsItems} />
+      </div>
     </div>
   );
 }
