@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
 
   justify-items: center;
   align-content: center;
@@ -16,13 +16,25 @@
 }
 
 .heading {
+  font-size: 2rem;
+  font-weight: 700;
   grid-row: 2;
+  color: var(--very-dark-violet-color);
+  margin: 1rem;
+
+  border: solid 1px red;
 }
 
 .text {
   grid-row: 3;
+  font-size: 1.6rem;
+  color: var(--grayish-v iolet-color);
+  margin: 1rem 2rem;
+
+  border: solid 1px red;
 }
 
 .button {
   grid-row: 4;
+  margin: 1rem 2rem;
 }
