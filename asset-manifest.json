@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/fem-url-shortening-api-landing-page/static/css/main.073c9b0a.css",
-    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.8ec2362e.js",
+    "main.css": "/fem-url-shortening-api-landing-page/static/css/main.20792ad1.css",
+    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.87f1c3d6.js",
     "static/js/787.3233f6bb.chunk.js": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js",
-    "static/media/logo.svg": "/fem-url-shortening-api-landing-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/illustration-working.svg": "/fem-url-shortening-api-landing-page/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
+    "static/media/logo.svg": "/fem-url-shortening-api-landing-page/static/media/logo.834643034343520f3b4d7e43111ed4d8.svg",
+    "static/media/open-menu-6208.svg": "/fem-url-shortening-api-landing-page/static/media/open-menu-6208.ee0c77e57f94740a1936d469912c7aee.svg",
     "index.html": "/fem-url-shortening-api-landing-page/index.html",
-    "main.073c9b0a.css.map": "/fem-url-shortening-api-landing-page/static/css/main.073c9b0a.css.map",
-    "main.8ec2362e.js.map": "/fem-url-shortening-api-landing-page/static/js/main.8ec2362e.js.map",
+    "main.20792ad1.css.map": "/fem-url-shortening-api-landing-page/static/css/main.20792ad1.css.map",
+    "main.87f1c3d6.js.map": "/fem-url-shortening-api-landing-page/static/js/main.87f1c3d6.js.map",
     "787.3233f6bb.chunk.js.map": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8ec2362e.js"
+    "static/css/main.20792ad1.css",
+    "static/js/main.87f1c3d6.js"
   ]
 }
