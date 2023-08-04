@@ -2,7 +2,7 @@
   "name": "fem-url-shortening-api-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riwepo.github.io/fem-advice-generator-app/",
+  "homepage": "https://riwepo.github.io/fem-url-shortening-api-landing-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
