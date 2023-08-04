@@ -1,5 +1,7 @@
 import React from "react";
 
+import GetStartedButton from "./GetStartedButton";
+
 import illustrationWorking from "../images/illustration-working.svg";
 
 import classes from "./Hero.module.css";
@@ -17,7 +19,7 @@ function Hero() {
         Build your brand's recognition and get detailed insights on how your
         links are performing.
       </p>
-      <button className={classes.button}>Get Started</button>
+      <GetStartedButton />
     </div>
   );
 }

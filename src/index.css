@@ -8,6 +8,7 @@
   --grayish-violet-color: hsl(257, 7%, 63%);
   --very-dark-blue-color: hsl(255, 11%, 22%);
   --very-dark-violet-color: hsl(260, 8%, 14%);
+  --white-color: white;
 }
 
 body {
