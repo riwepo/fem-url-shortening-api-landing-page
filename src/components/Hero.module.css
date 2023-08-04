@@ -9,7 +9,9 @@
 }
 
 .illustrationWorking {
-  align-self: center;
+  width: 100%;
+  height: auto;
+
   grid-row: 1;
 }
 
