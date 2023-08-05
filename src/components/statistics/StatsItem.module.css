@@ -43,9 +43,12 @@
   color: var(--grayish-violet-color);
 }
 
+.textLast {
+  margin-bottom: 2rem;
+}
+
 .joiner {
   display: block;
-  /* margin-bottom: -4rem; */
   border-left: 3px solid var(--cyan-color);
   border-right: 3px solid var(--cyan-color);
   height: 4rem;
