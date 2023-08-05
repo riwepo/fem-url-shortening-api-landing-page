@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fem-url-shortening-api-landing-page/static/css/main.20792ad1.css",
-    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.87f1c3d6.js",
+    "main.css": "/fem-url-shortening-api-landing-page/static/css/main.e3b3c810.css",
+    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.f4ad0eca.js",
     "static/js/787.3233f6bb.chunk.js": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js",
     "static/media/illustration-working.svg": "/fem-url-shortening-api-landing-page/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
     "static/media/logo.svg": "/fem-url-shortening-api-landing-page/static/media/logo.834643034343520f3b4d7e43111ed4d8.svg",
     "static/media/open-menu-6208.svg": "/fem-url-shortening-api-landing-page/static/media/open-menu-6208.ee0c77e57f94740a1936d469912c7aee.svg",
     "index.html": "/fem-url-shortening-api-landing-page/index.html",
-    "main.20792ad1.css.map": "/fem-url-shortening-api-landing-page/static/css/main.20792ad1.css.map",
-    "main.87f1c3d6.js.map": "/fem-url-shortening-api-landing-page/static/js/main.87f1c3d6.js.map",
+    "main.e3b3c810.css.map": "/fem-url-shortening-api-landing-page/static/css/main.e3b3c810.css.map",
+    "main.f4ad0eca.js.map": "/fem-url-shortening-api-landing-page/static/js/main.f4ad0eca.js.map",
     "787.3233f6bb.chunk.js.map": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20792ad1.css",
-    "static/js/main.87f1c3d6.js"
+    "static/css/main.e3b3c810.css",
+    "static/js/main.f4ad0eca.js"
   ]
 }
