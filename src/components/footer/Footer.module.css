@@ -1,0 +1,7 @@
+.container {
+  background-color: var(--very-dark-violet-color);
+}
+
+.logo {
+  color: var(--white-color);
+}
