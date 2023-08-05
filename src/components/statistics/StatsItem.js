@@ -18,6 +18,13 @@ function StatsItem({ itemInfo }) {
       </div>
       <h2 className={classes.heading}>{itemInfo.heading}</h2>
       <p className={classes.text}>{itemInfo.text}</p>
+      {/* this is the joining stick between items
+            the last item doesn't have it */}
+      <div
+        className={`${classes.joiner} ${
+          itemInfo.id === 3 ? classes.joinerLast : null
+        }`}
+      ></div>
     </div>
   );
 }

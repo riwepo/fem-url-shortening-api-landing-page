@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  padding: 0 1rem 0 1rem;
 
   display: flex;
   flex-direction: column;
@@ -7,6 +8,7 @@
   align-items: center;
   gap: 2rem;
   background-color: var(--white-color);
+  border-radius: 1rem;
 
   border: solid 1px red;
 }
@@ -36,7 +38,20 @@
 }
 
 .text {
-  margin-bottom: 2rem;
+  margin-bottom: -2rem;
   font-size: 1rem;
   color: var(--grayish-violet-color);
+}
+
+.joiner {
+  display: block;
+  /* margin-bottom: -4rem; */
+  border-left: 3px solid var(--cyan-color);
+  border-right: 3px solid var(--cyan-color);
+  height: 4rem;
+  transform: translate(0, 100%);
+}
+
+.joinerLast {
+  display: none;
 }
