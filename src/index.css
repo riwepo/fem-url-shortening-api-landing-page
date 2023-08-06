@@ -6,6 +6,7 @@
   --dark-violet-color: hsl(257, 27%, 26%);
   --red-color: hsl(0, 87%, 67%);
   --gray-color: hsl(0, 0%, 75%);
+  --gray-transparent-color: hsla(0, 0%, 75%, 0.482);
   --light-gray-color: hsl(0, 0%, 85%);
   --grayish-violet-color: hsl(257, 7%, 63%);
   --very-dark-blue-color: hsl(255, 11%, 22%);
