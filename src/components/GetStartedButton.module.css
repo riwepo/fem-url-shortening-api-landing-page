@@ -4,4 +4,10 @@
   padding: 1rem 2rem 1rem 2rem;
   border: none;
   border-radius: 2rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--cyan-tint-color);
 }
