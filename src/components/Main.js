@@ -1,7 +1,7 @@
 import React from "react";
 
 import Hero from "./Hero";
-import ShortenForm from "./ShortenForm";
+import ShortenForm from "./shorten/ShortenForm";
 import Stats from "./statistics/Stats";
 import CallToAction from "./CallToAction";
 
