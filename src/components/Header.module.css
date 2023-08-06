@@ -1,20 +1,21 @@
 .container {
-    display: flex;
-    flex-direction: row;
-  
-    justify-content: space-between;
-    align-items: center;
-  
-    padding: 0.5rem 1rem 0.5rem 1rem;
-  }
-  
-  .icon {
-    height: 2rem;
-    width: auto;
-  }
-  
-  .openMenu {
-    height: 2rem;
-    width: auto;
-  }
-  
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.icon {
+  height: 2rem;
+  width: auto;
+}
+
+.openMenu {
+  height: 2rem;
+  width: auto;
+}

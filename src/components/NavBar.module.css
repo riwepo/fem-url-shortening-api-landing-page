@@ -1,4 +1,9 @@
 .container {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
   padding: 1rem 2rem;
 
   display: flex;
@@ -21,6 +26,11 @@
   margin-bottom: 2rem;
 }
 
+.a:hover,
+.a:active {
+  color: var(--cyan-tint-color);
+}
+
 .separator {
   width: 100%;
   border-bottom: 1px solid var(--grayish-violet-color);
@@ -34,6 +44,12 @@
   font-weight: 700;
   color: var(--white-color);
   margin-bottom: 2rem;
+}
+
+.loginButton:hover,
+.loginButton:active {
+  cursor: pointer;
+  color: var(--cyan-tint-color);
 }
 
 .signupButton {
