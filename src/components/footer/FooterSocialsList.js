@@ -16,16 +16,22 @@ function FooterSocialsList() {
           src={iconFacebook}
           alt="social media icon"
         />
+      </li>
+      <li>
         <img
           className={classes.img}
           src={iconTwitter}
           alt="social media icon"
         />
+      </li>
+      <li>
         <img
           className={classes.img}
           src={iconPinterest}
           alt="social media icon"
         />
+      </li>
+      <li>
         <img
           className={classes.img}
           src={iconInstagram}
