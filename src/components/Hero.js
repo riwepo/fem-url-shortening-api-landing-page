@@ -1,6 +1,6 @@
 import React from "react";
 
-import GetStartedButton from "./GetStartedButton";
+import Button from "./Button";
 
 import illustrationWorking from "../images/illustration-working.svg";
 
@@ -19,7 +19,7 @@ function Hero() {
         Build your brand's recognition and get detailed insights on how your
         links are performing.
       </p>
-      <GetStartedButton className={classes.button} />
+      <Button className={classes.button} label="Get Started" />
     </div>
   );
 }
