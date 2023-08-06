@@ -23,8 +23,8 @@
 
 .text {
   grid-row: 3;
-  font-size: 1.6rem;
-  color: var(--grayish-v iolet-color);
+  font-size: 1rem;
+  color: var(--grayish-violet-color);
   margin: 1rem 2rem;
 }
 
