@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ShortenForm from "./components/ShortenForm";
 import Stats from "./components/statistics/Stats";
@@ -12,7 +12,7 @@ import classes from "./App.module.css";
 function App() {
   return (
     <main className={classes.container}>
-      <NavBar />
+      <Header />
       <Hero />
       <ShortenForm />
       <Stats />
