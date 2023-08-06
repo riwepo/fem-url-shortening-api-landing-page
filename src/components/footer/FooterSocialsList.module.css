@@ -7,6 +7,10 @@
   align-items: center;
 }
 
-.img {
-  display: inline-block;
+.icon {
+  color: var(--white-color);
+}
+.icon:hover,
+.icon:active {
+  color: var(--cyan-tint-color);
 }
