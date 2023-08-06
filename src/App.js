@@ -12,11 +12,11 @@ import classes from "./App.module.css";
 function App() {
   return (
     <main className={classes.container}>
-      {/* <NavBar />
+      <NavBar />
       <Hero />
       <ShortenForm />
       <Stats />
-      <CallToAction /> */}
+      <CallToAction />
       <Footer />
     </main>
   );

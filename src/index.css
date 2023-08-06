@@ -23,3 +23,9 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* debug */
+div,
+form {
+  border: solid 1px red;
+}

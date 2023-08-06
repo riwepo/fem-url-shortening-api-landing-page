@@ -7,7 +7,6 @@
     var(--light-gray-color) 50%,
     var(--light-gray-color) 100%
   );
-  border: solid 1px red;
 }
 
 .form {
@@ -17,7 +16,6 @@
   margin: 2rem;
   background-color: var(--dark-violet-color);
   border-radius: 0.5rem;
-  border: solid 1px red;
 }
 
 .input {
