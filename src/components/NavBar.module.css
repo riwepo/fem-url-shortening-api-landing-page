@@ -1,19 +1,42 @@
 .container {
+  padding: 1rem 2rem;
+
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   justify-content: space-between;
   align-items: center;
 
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: var(--dark-violet-color);
+
+  border-radius: 0.5rem;
 }
 
-.icon {
-  height: 2rem;
-  width: auto;
+.a {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white-color);
+  text-decoration: none;
+
+  margin-bottom: 2rem;
 }
 
-.openMenu {
-  height: 2rem;
-  width: auto;
+.separator {
+  width: 100%;
+  border-bottom: 1px solid var(--grayish-violet-color);
+  margin-bottom: 2rem;
+}
+
+.loginButton {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white-color);
+  margin-bottom: 2rem;
+}
+
+.signupButton {
+  width: 16rem;
+  margin-bottom: 2rem;
 }
