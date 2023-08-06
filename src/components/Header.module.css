@@ -10,12 +10,23 @@
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.icon {
+.logo {
   height: 2rem;
   width: auto;
+  color: var(--very-dark-violet-color);
 }
 
 .openMenu {
   height: 2rem;
   width: auto;
+  color: var(--very-dark-violet-color);
+}
+
+.openMenuIsOpen {
+  color: var(--gray-color);
+}
+
+.openMenu:hover,
+.openMenu:active {
+  cursor: pointer;
 }
