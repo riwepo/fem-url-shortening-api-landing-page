@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Hero from "./Hero";
 import ShortenForm from "./shorten/ShortenForm";
@@ -7,6 +7,7 @@ import Stats from "./statistics/Stats";
 import CallToAction from "./CallToAction";
 
 import getShortenedLink from "../shorten";
+import { getLinksFromStore, saveLinksToStore } from "../storeLinks";
 
 import classes from "./Main.module.css";
 
@@ -25,6 +26,17 @@ function Main() {
   const [shortenedLinks, setShortenedLinks] = useState(initialData);
   const [progressMessage, setProgressMessage] = useState("");
 
+  // this gets run once on app startup, due to empty array of dependencies
+  useEffect(() => {
+    const links = getLinksFromStore();
+    setShortenedLinks(links);
+  }, []);
+
+  const saveLinks = (shortenedLinks) => {
+    saveLinksToStore(shortenedLinks);
+    setShortenedLinks(shortenedLinks);
+  };
+
   const onLinkSubmittedHandler = async (linkToShorten) => {
     setProgressMessage("shortening link...");
     const result = await getShortenedLink(linkToShorten);
@@ -33,7 +45,7 @@ function Main() {
         shortenedLinks.length,
         result.value
       );
-      setShortenedLinks([...shortenedLinks, convertedResult]);
+      saveLinks([...shortenedLinks, convertedResult]);
       setProgressMessage("");
     } else {
       setProgressMessage(`shorten link failed with error '${result.error}'`);
