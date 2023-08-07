@@ -46,7 +46,7 @@ function Main() {
     <main className={classes.main}>
       <Hero />
       <ShortenForm onLinkSubmitted={onLinkSubmittedHandler} />
-      <ShortenedUrlList items={shortenedLinks} />
+      {shortenedLinks.length > 0 && <ShortenedUrlList items={shortenedLinks} />}
       <Stats />
       <CallToAction />
     </main>
