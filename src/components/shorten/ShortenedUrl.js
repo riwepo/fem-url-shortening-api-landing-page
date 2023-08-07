@@ -5,8 +5,10 @@ import classes from "./ShortenedUrl.module.css";
 function ShortenedUrl({ shortenedUrl }) {
   const [isCopied, setIsCopied] = useState(false);
   const copyClickHandler = (event) => {
+    navigator.clipboard.writeText(shortenedUrl.shortened);
     setIsCopied(true);
   };
+
   return (
     <div className={classes.container}>
       <div className={classes.original}>{shortenedUrl.original}</div>
