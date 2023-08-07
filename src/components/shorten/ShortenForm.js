@@ -12,6 +12,7 @@ function ShortenForm({ onLinkSubmitted }) {
     if (!isValid) return;
     onLinkSubmitted(enteredUrl);
     setEnteredUrl("");
+    setIsValid(false);
   };
 
   const inputChangeHandler = (event) => {
@@ -34,6 +35,7 @@ function ShortenForm({ onLinkSubmitted }) {
           type="text"
           placeholder="Shorten a link here..."
           onChange={inputChangeHandler}
+          value={enteredUrl}
         />
         {isError && <p className={classes.errorMessage}>Please add a link</p>}
         <button className={classes.button} disabled={!isValid}>
