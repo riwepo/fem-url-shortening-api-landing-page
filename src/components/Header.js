@@ -16,7 +16,11 @@ function Header() {
   return (
     <header className={classes.container}>
       <Logo className={classes.logo} />
-      <NavBar isOpen={isNavOpen} onOverlayClicked={openNavClickHandler} />
+      <NavBar
+        className={classes.nav}
+        isOpen={isNavOpen}
+        onOverlayClicked={openNavClickHandler}
+      />
       <OpenNav
         className={`${classes.openNav} ${
           isNavOpen ? classes.openNavIsOpen : null
