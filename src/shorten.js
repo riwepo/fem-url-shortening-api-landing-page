@@ -11,7 +11,7 @@ const buildRequestUrl = (linkToShorten) => {
 // calls shrtco API with specified link
 // sohrtens the link
 // returns value or error wrapped in an object
-export async function getShortenedLink(linkToShorten) {
+export default async function getShortenedLink(linkToShorten) {
   const url = buildRequestUrl(linkToShorten);
   let result;
   try {
