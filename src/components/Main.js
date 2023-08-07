@@ -10,12 +10,7 @@ import getShortenedLink from "../shorten";
 
 import classes from "./Main.module.css";
 
-// const dummyData = [
-//   { id: 1, original: "original1", shortened: "shortened1" },
-//   { id: 2, original: "original2", shortened: "shortened2" },
-//   { id: 3, original: "original3", shortened: "shortened3" },
-// ];
-const dummyData = [];
+const initialData = [];
 
 const convertShortenedResult = (existingCount, shortenedResult) => {
   const result = {
@@ -27,25 +22,31 @@ const convertShortenedResult = (existingCount, shortenedResult) => {
 };
 
 function Main() {
-  const [shortenedLinks, setShortenedLinks] = useState(dummyData);
+  const [shortenedLinks, setShortenedLinks] = useState(initialData);
+  const [progressMessage, setProgressMessage] = useState("");
 
   const onLinkSubmittedHandler = async (linkToShorten) => {
-    console.log("linkToShorten", linkToShorten);
+    setProgressMessage("shortening link...");
     const result = await getShortenedLink(linkToShorten);
-    console.log(" get shortened result", result);
     if (result.isOk) {
       const convertedResult = convertShortenedResult(
         shortenedLinks.length,
         result.value
       );
-      console.log("convertedResult", convertedResult);
       setShortenedLinks([...shortenedLinks, convertedResult]);
+      setProgressMessage("");
+    } else {
+      setProgressMessage(`shorten link failed with error '${result.error}'`);
     }
   };
+
   return (
     <main className={classes.main}>
       <Hero />
-      <ShortenForm onLinkSubmitted={onLinkSubmittedHandler} />
+      <ShortenForm
+        onLinkSubmitted={onLinkSubmittedHandler}
+        progressMessage={progressMessage}
+      />
       {shortenedLinks.length > 0 && <ShortenedUrlList items={shortenedLinks} />}
       <Stats />
       <CallToAction />

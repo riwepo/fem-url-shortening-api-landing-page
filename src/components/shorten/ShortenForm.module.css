@@ -55,3 +55,10 @@
   cursor: default;
   background-color: var(--cyan-tint-color);
 }
+
+.progressMessage {
+  align-self: center;
+  color: var(--white-color);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

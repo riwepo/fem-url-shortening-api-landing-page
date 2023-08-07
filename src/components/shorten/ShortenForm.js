@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import classes from "./ShortenForm.module.css";
 
-function ShortenForm({ onLinkSubmitted }) {
+function ShortenForm({ onLinkSubmitted, progressMessage }) {
   const [enteredUrl, setEnteredUrl] = useState("");
   const [isValid, setIsValid] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -41,6 +41,9 @@ function ShortenForm({ onLinkSubmitted }) {
         <button className={classes.button} disabled={!isValid}>
           Shorten It!
         </button>
+        {progressMessage !== "" && (
+          <p className={classes.progressMessage}>{progressMessage}</p>
+        )}
       </form>
     </div>
   );
