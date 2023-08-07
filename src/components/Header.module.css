@@ -3,9 +3,9 @@
 
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -17,6 +17,10 @@
   color: var(--very-dark-violet-color);
 
   text-align: center;
+}
+
+.nav {
+  flex-grow: 1;
 }
 
 .openNav {

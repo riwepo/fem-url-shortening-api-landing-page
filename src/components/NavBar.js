@@ -4,10 +4,14 @@ import Button from "./Button";
 
 import classes from "./NavBar.module.css";
 
-function NavBar({ isOpen, onOverlayClicked }) {
+function NavBar({ className, isOpen, onOverlayClicked }) {
   return (
     <>
-      <nav className={`${classes.nav} ${isOpen ? classes.navOpen : null}`}>
+      <nav
+        className={`${className} ${classes.nav} ${
+          isOpen ? classes.navOpen : null
+        }`}
+      >
         <a className={classes.a} href="#features">
           Features
         </a>
