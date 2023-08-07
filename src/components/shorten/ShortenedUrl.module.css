@@ -36,3 +36,12 @@
 .button:hover {
   background-color: var(--cyan-tint-color);
 }
+
+.buttonCopied {
+  background-color: var(--dark-violet-color);
+  cursor: default;
+}
+
+.button:disabled {
+  background-color: var(--dark-violet-color);
+}
