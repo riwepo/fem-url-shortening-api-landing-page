@@ -12,6 +12,7 @@ function ShortenedUrl({ shortenedUrl }) {
   return (
     <div className={classes.container}>
       <div className={classes.original}>{shortenedUrl.original}</div>
+      <div className={classes.divider}></div>
       <div className={classes.shortened}>{shortenedUrl.shortened}</div>
       <button
         className={`${classes.button} ${
