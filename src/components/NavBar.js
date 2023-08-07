@@ -4,10 +4,10 @@ import Button from "./Button";
 
 import classes from "./NavBar.module.css";
 
-function NavBar({ onOverlayClicked }) {
+function NavBar({ isOpen, onOverlayClicked }) {
   return (
     <>
-      <nav className={classes.container}>
+      <nav className={`${classes.nav} ${isOpen ? classes.navOpen : null}`}>
         <a className={classes.a} href="#features">
           Features
         </a>
@@ -21,7 +21,9 @@ function NavBar({ onOverlayClicked }) {
         <button className={classes.loginButton}>Login</button>
         <Button className={classes.signupButton} label="Sign Up" />
       </nav>
-      <div className={classes.overlay} onClick={onOverlayClicked}></div>
+      {isOpen && (
+        <div className={classes.overlay} onClick={onOverlayClicked}></div>
+      )}
     </>
   );
 }

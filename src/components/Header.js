@@ -3,25 +3,25 @@ import React, { useState } from "react";
 import NavBar from "./NavBar";
 
 import { ReactComponent as Logo } from "../images/logo.svg";
-import { ReactComponent as OpenMenu } from "../images/open-menu-6208.svg";
+import { ReactComponent as OpenNav } from "../images/open-menu-6208.svg";
 
 import classes from "./Header.module.css";
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const openMenuClickHandler = () => {
-    setIsMenuOpen((current) => !current);
+  const openNavClickHandler = () => {
+    setIsNavOpen((current) => !current);
   };
   return (
     <header className={classes.container}>
       <Logo className={classes.logo} />
-      {isMenuOpen && <NavBar onOverlayClicked={openMenuClickHandler} />}
-      <OpenMenu
-        className={`${classes.openMenu} ${
-          isMenuOpen ? classes.openMenuIsOpen : null
+      <NavBar isOpen={isNavOpen} onOverlayClicked={openNavClickHandler} />
+      <OpenNav
+        className={`${classes.openNav} ${
+          isNavOpen ? classes.openNavIsOpen : null
         }`}
-        onClick={openMenuClickHandler}
+        onClick={openNavClickHandler}
       />
     </header>
   );

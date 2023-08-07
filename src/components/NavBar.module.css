@@ -1,20 +1,21 @@
-.container {
+.nav {
+  display: none;
+}
+
+.nav.navOpen {
   position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, 0);
   z-index: 2;
-
   padding: 1rem 2rem;
 
   display: flex;
   flex-direction: column;
-
   justify-content: space-between;
   align-items: center;
 
   background-color: var(--dark-violet-color);
-
   border-radius: 0.5rem;
 }
 
@@ -66,4 +67,29 @@
   height: 100%;
   background-color: var(--gray-transparent-color);
   z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  .a {
+    color: var(--grayish-violet-color);
+    margin-bottom: 0;
+  }
+  .separator {
+    display: none;
+  }
+  .loginButton {
+    color: var(--grayish-violet-color);
+    margin-bottom: 0;
+  }
+  .signupButton {
+    width: auto;
+    margin-bottom: 0;
+  }
 }

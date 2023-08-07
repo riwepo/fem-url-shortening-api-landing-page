@@ -1,6 +1,4 @@
 .container {
-  width: 100%;
-
   position: relative;
 
   display: flex;
@@ -21,17 +19,28 @@
   text-align: center;
 }
 
-.openMenu {
+.openNav {
   height: 2rem;
   width: auto;
   color: var(--very-dark-violet-color);
 }
 
-.openMenuIsOpen {
+.openNavIsOpen {
   color: var(--gray-color);
 }
 
-.openMenu:hover,
-.openMenu:active {
+.openNav:hover,
+.openNav:active {
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .openNav {
+    display: none;
+  }
 }
