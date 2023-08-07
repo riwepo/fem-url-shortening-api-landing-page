@@ -15,10 +15,13 @@ const dummyData = [
 ];
 
 function Main() {
+  const onLinkSubmittedHandler = () => {
+    console.log("submitted");
+  };
   return (
     <main className={classes.main}>
       <Hero />
-      <ShortenForm />
+      <ShortenForm onLinkSubmitted={onLinkSubmittedHandler} />
       <ShortenedUrlList items={dummyData} />
       <Stats />
       <CallToAction />
