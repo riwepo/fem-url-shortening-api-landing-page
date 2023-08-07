@@ -1,3 +1,5 @@
+// module to use to call api.shrtco.de
+
 // sample URL
 // https://api.shrtco.de/v2/shorten?url=example.org/very/long/link.html
 
