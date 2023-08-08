@@ -5,8 +5,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
   background-color: transparent;
 
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .container li:nth-child(2) {
+    transform: translate(0, 10%);
+  }
+
+  .container li:nth-child(3) {
+    transform: translate(0, 20%);
+  }
 }

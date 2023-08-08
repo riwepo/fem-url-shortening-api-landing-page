@@ -8,24 +8,25 @@ function StatsItem({ itemInfo }) {
     return source;
   };
   return (
-    <div className={classes.container}>
-      <div className={classes.imageContainer}>
-        <img
-          className={classes.img}
-          src={createImgSource(itemInfo.iconFileName)}
-          alt={itemInfo.iconAlt}
-        />
+    <li className={classes.listItem}>
+      <div className={classes.container}>
+        <div className={classes.imageContainer}>
+          <img
+            className={classes.img}
+            src={createImgSource(itemInfo.iconFileName)}
+            alt={itemInfo.iconAlt}
+          />
+        </div>
+        <h2 className={classes.heading}>{itemInfo.heading}</h2>
+
+        <p
+          className={`${classes.text} ${
+            itemInfo.id === 3 ? classes.textLast : null
+          }`}
+        >
+          {itemInfo.text}
+        </p>
       </div>
-      <h2 className={classes.heading}>{itemInfo.heading}</h2>
-
-      <p
-        className={`${classes.text} ${
-          itemInfo.id === 3 ? classes.textLast : null
-        }`}
-      >
-        {itemInfo.text}
-      </p>
-
       {/* this is the joining stick between items
             the last item doesn't have it */}
       <div
@@ -33,7 +34,7 @@ function StatsItem({ itemInfo }) {
           itemInfo.id === 3 ? classes.joinerLast : null
         }`}
       ></div>
-    </div>
+    </li>
   );
 }
 
