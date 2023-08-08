@@ -1,6 +1,7 @@
 .list {
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 
 @media (min-width: 768px) {
