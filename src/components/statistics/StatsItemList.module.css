@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 4rem;
+
   background-color: transparent;
 
   margin-bottom: 6rem;
@@ -15,6 +17,7 @@
   .container {
     flex-direction: row;
     align-items: stretch;
+    gap: 0;
   }
 
   .container li:nth-child(2) {
