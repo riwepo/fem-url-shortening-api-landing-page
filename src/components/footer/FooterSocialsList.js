@@ -12,22 +12,22 @@ function FooterSocialsList() {
     <ul className={classes.list}>
       <li key={1}>
         <a className={classes.a} href="#facebook">
-          <IconFacebook className={classes.icon} />
+          <IconFacebook className={classes.icon} aria-label="Facebook" />
         </a>
       </li>
       <li key={2}>
         <a className={classes.a} href="#twitter">
-          <IconTwitter className={classes.icon} />
+          <IconTwitter className={classes.icon} aria-label="Twitter" />
         </a>
       </li>
       <li key={3}>
         <a className={classes.a} href="#pinterest">
-          <IconPinterest className={classes.icon} />
+          <IconPinterest className={classes.icon} aria-label="Pinterest" />
         </a>
       </li>
       <li key={4}>
         <a className={classes.a} href="#instagram">
-          <IconInstagram className={classes.icon} />
+          <IconInstagram className={classes.icon} aria-label="Instagram" />
         </a>
       </li>
     </ul>
