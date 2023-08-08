@@ -14,3 +14,10 @@
 .icon:active {
   color: var(--cyan-tint-color);
 }
+
+@media (min-width: 768px) {
+  .list {
+    width: auto;
+    gap: 1rem;
+  }
+}

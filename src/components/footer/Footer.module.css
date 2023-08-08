@@ -22,3 +22,16 @@
   margin-bottom: 2rem;
   color: var(--white-color);
 }
+
+@media (min-width: 768px) {
+  .container {
+    align-items: stretch;
+  }
+  .contentContainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
