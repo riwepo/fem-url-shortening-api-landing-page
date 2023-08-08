@@ -54,10 +54,10 @@ Users should be able to:
 
 I realised I forgot to change to application title on all my previous challenges😲.
 
-I learned how to split the background colour vertically into two, using a gradient
+I learned how to split the background colour vertically into two, using a gradient.
 
 I learned more about flex box.
-When used in column direction, because we have 'unlimited' vertical space, justify-content space-around or space-between won't work unless you give the container a fixed height.
+When used in column direction, because we have 'unlimited' vertical space, justify-content: space-around or space-between won't work unless you give the container a fixed height.
 It is easier to put margins on each item and let the container adapt itself.
 
 I learned how to set background image through css, center it, don't repeat, set size etc.
@@ -76,4 +76,5 @@ I looked at this project to get started.
 I wasn't sure if there were multiple pages, if the menus were meant to work, etc.
 @kaio05
 Kaio Fernando
+
 Cheers Kaio.
