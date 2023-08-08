@@ -9,13 +9,13 @@ import classes from "./Footer.module.css";
 
 function Footer() {
   return (
-    <div className={classes.container}>
+    <footer className={classes.container}>
       <div className={classes.contentContainer}>
         <Logo className={classes.logo} />
         <FooterItemList />
         <FooterSocialsList />
       </div>
-    </div>
+    </footer>
   );
 }
 

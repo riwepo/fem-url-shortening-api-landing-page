@@ -28,7 +28,7 @@ function Stats() {
     },
   ];
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <div className={classes.contentContainer}>
         <h2 className={classes.heading}>Advanced Statistics</h2>
         <p className={classes.text}>
@@ -37,7 +37,7 @@ function Stats() {
         </p>
         <StatsItemList items={statsItems} />
       </div>
-    </div>
+    </section>
   );
 }
 

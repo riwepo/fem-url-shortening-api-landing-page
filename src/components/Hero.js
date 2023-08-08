@@ -8,7 +8,7 @@ import classes from "./Hero.module.css";
 
 function Hero() {
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <img
         className={classes.illustrationWorking}
         src={illustrationWorking}
@@ -20,7 +20,7 @@ function Hero() {
         links are performing.
       </p>
       <Button className={classes.button} label="Get Started" />
-    </div>
+    </section>
   );
 }
 

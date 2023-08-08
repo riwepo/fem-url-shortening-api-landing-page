@@ -6,13 +6,13 @@ import classes from "./ShortenedUrlList.module.css";
 
 function ShortenedUrlList({ items }) {
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <ul className={classes.list}>
         {items.map((item) => (
           <ShortenedUrl key={item.id} shortenedUrl={item} />
         ))}
       </ul>
-    </div>
+    </section>
   );
 }
 

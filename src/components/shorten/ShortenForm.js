@@ -28,7 +28,7 @@ function ShortenForm({ onLinkSubmitted, progressMessage }) {
     }
   };
   return (
-    <div className={classes.container}>
+    <section className={classes.container}>
       <form className={classes.form} onSubmit={submitHandler}>
         <input
           className={`${classes.input} ${isError ? classes.inputError : null}`}
@@ -45,7 +45,7 @@ function ShortenForm({ onLinkSubmitted, progressMessage }) {
           <p className={classes.progressMessage}>{progressMessage}</p>
         )}
       </form>
-    </div>
+    </section>
   );
 }
 
