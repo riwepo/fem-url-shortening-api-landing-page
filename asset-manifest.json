@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fem-url-shortening-api-landing-page/static/css/main.515cf050.css",
-    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.57651f7e.js",
+    "main.js": "/fem-url-shortening-api-landing-page/static/js/main.ab2109e7.js",
     "static/js/787.3233f6bb.chunk.js": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js",
     "static/media/illustration-working.svg": "/fem-url-shortening-api-landing-page/static/media/illustration-working.c9b5ef5452363d8be3df709375d50bd0.svg",
     "static/media/logo.svg": "/fem-url-shortening-api-landing-page/static/media/logo.c0fe8bba4145a17b229241bd226749c7.svg",
@@ -13,11 +13,11 @@
     "static/media/icon-twitter.svg": "/fem-url-shortening-api-landing-page/static/media/icon-twitter.9bc01fbc7d1b64945c1aa7c8aa8ab4b9.svg",
     "static/media/icon-facebook.svg": "/fem-url-shortening-api-landing-page/static/media/icon-facebook.82b535a4f5784aa30e57c29c924eaa98.svg",
     "main.515cf050.css.map": "/fem-url-shortening-api-landing-page/static/css/main.515cf050.css.map",
-    "main.57651f7e.js.map": "/fem-url-shortening-api-landing-page/static/js/main.57651f7e.js.map",
+    "main.ab2109e7.js.map": "/fem-url-shortening-api-landing-page/static/js/main.ab2109e7.js.map",
     "787.3233f6bb.chunk.js.map": "/fem-url-shortening-api-landing-page/static/js/787.3233f6bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.515cf050.css",
-    "static/js/main.57651f7e.js"
+    "static/js/main.ab2109e7.js"
   ]
 }
