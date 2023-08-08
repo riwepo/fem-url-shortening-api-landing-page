@@ -46,7 +46,6 @@
   font-weight: 700;
   color: var(--white-color);
   margin-bottom: 2rem;
-  margin-left: auto;
 }
 
 .loginButton:hover,
@@ -88,6 +87,7 @@
   .loginButton {
     color: var(--grayish-violet-color);
     margin-bottom: 0;
+    margin-left: auto;
   }
   .signupButton {
     width: auto;
