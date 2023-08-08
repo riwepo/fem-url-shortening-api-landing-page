@@ -4,7 +4,7 @@ import classes from "./FooterItem.module.css";
 
 function FooterItem({ heading, subItems }) {
   return (
-    <div className={classes.container}>
+    <li className={classes.container}>
       <h3 className={classes.heading}>{heading}</h3>
       <ul className={classes.subItemsList}>
         {subItems.map((subItem) => (
@@ -15,7 +15,7 @@ function FooterItem({ heading, subItems }) {
           </li>
         ))}
       </ul>
-    </div>
+    </li>
   );
 }
 
