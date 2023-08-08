@@ -21,6 +21,8 @@
   align-items: center;
 
   margin-bottom: 2rem;
+
+  list-style: none;
 }
 
 .a {
